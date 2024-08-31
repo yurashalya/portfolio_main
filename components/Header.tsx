@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 
 import Navigation from "./Navigation";
+import MobileNavigation from "./MobileNavigation";
 
 const Header = () => {
   return (
@@ -18,11 +19,10 @@ const Header = () => {
             <Button>Hire Me</Button>
           </Link>
         </div>
+        <div className="xl:hidden ">
+          <MobileNavigation />
+        </div>
       </div>
-      {/* mobile navigation*/}
-      {/* <div className="xl:hidden flex justify-end w-full"> 
-        <MobileNav/>
-      </div> */}
     </header>
   );
 };
