@@ -14,7 +14,7 @@ const JetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Yurii Shalia",
+  title: "Yura Shalia",
   description: "Main site by Shalia",
 };
 
