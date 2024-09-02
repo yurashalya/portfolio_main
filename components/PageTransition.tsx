@@ -12,7 +12,7 @@ const PageTransition = ({
   const pathname = usePathname();
 
   return (
-    <AnimatePresence mode="wait">
+    <AnimatePresence>
       <div key={pathname}>
         <motion.div
           initial={{ opacity: 1 }}
