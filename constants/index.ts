@@ -51,3 +51,45 @@ export const StatsResult = [
     text: "Code commits",
   },
 ];
+
+export const ServicesData = [
+  {
+    title: "Web Development",
+    description:
+      "Developing a web application using React and Next.JS library.",
+  },
+  {
+    title: "Mobile Development",
+    description:
+      "Building a mobile application with help React Native library.",
+  },
+  {
+    title: "Optimizing Applications for Maximum Speed",
+    description: `Optimizing code and assets to ensure fast loading and smooth operation. 
+      Key strategies include Code Splitting and Lazy Loading, 
+      Image Optimization,
+      Static File Serving,
+      Server-Side Rendering (SSR), 
+      Incremental Static Regeneration (ISR), 
+      React Server Components (RSC)
+      Image Optimization, 
+      Optimizing CSS
+      Performance Monitoring, 
+      Reducing JavaScript Bundle size and Concurrent Rendering.`,
+  },
+  {
+    title: "Seo optimizing",
+    description: `Seo optimization includes number of pages, Markup semantics(HTML5), 
+      Meta Tags and Structured Data,
+      Content uniqueness, 
+      Loading speed, 
+      Sitemap and Robots.txt, 
+      URL Structure and Routing, 
+      Performance Optimization, 
+      Mobile Optimization(Responsive Design), 
+      Aria Attributes,  
+      External Links and Backlinks, Uptime and other. 
+      Monitor and analyze website performance metrics using tools like Lighthouse or Google PageSpeed Insights.
+      Collaborate with SEO specialists to integrate SEO strategies into Frontend development processes.`,
+  },
+];
