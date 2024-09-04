@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: "https://yurii-shalia.vercel.app",
     images: [
       {
-        url: "/assets/photo-title.jpg",
+        url: "https://yurii-shalia.vercel.app/assets/photo-title.jpg",
         width: 800,
         height: 600,
         alt: "Yurii Shalia",
