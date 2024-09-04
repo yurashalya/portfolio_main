@@ -31,7 +31,7 @@ const Contact = () => {
 
   useEffect(() => {
     checkFormValidity();
-  }, [formData]);
+  }, [formData, checkFormValidity]);
 
   const handleChange = ({
     target,
