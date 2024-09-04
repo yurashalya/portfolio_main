@@ -6,6 +6,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
+import { Toaster } from "@/components/ui/toaster";
 
 const JetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -14,7 +15,7 @@ const JetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Yura Shalia",
+  title: "Yurii Shalia",
   description: "Main site by Shalia",
 };
 
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className={JetBrainsMono.variable}>
         <Header />
         <StairTransition />
+        <Toaster />
         <PageTransition>{children}</PageTransition>
       </body>
     </html>

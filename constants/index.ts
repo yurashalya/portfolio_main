@@ -12,6 +12,9 @@ import {
   FaYoutube,
   FaInstagram,
   FaJira,
+  FaEnvelope,
+  FaMapMarkedAlt,
+  FaTelegram,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -41,13 +44,31 @@ export const Links = [
     name: "Resume",
     path: "/resume",
   },
-  {
-    name: "Work",
-    path: "/work",
-  },
+  // {
+  //   name: "Work",
+  //   path: "/work",
+  // },
   {
     name: "Contact",
     path: "/contact",
+  },
+];
+
+export const Contacts = [
+  {
+    icon: FaTelegram,
+    title: "Skype",
+    description: "@s_yura",
+  },
+  {
+    icon: FaEnvelope,
+    title: "Email",
+    description: "shalyayura@gmail.com",
+  },
+  {
+    icon: FaMapMarkedAlt,
+    title: "Address",
+    description: "Varna, Bulgaria",
   },
 ];
 
@@ -287,3 +308,31 @@ export const Skills = {
     },
   ],
 };
+
+export const InitialContactValues = {
+  firstName: "",
+  lastName: "",
+  email: "",
+  phone: "",
+  service: "",
+  message: "",
+};
+
+export const MyServices = [
+  {
+    value: "web-development",
+    title: "Web development",
+  },
+  {
+    value: "mobile-development",
+    title: "Mobile development",
+  },
+  {
+    value: "optimizing",
+    title: "Optimizing application",
+  },
+  {
+    value: "seo",
+    title: "Seo optimizing",
+  },
+];
