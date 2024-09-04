@@ -57,14 +57,12 @@ const Contact = () => {
           toast({
             title: "Success",
             description: "Message sent successfully!",
-            type: "success",
           });
           setFormData(InitialContactValues);
         } else {
           toast({
             title: "Error",
             description: "Failed to send message.",
-            type: "error",
           });
         }
       }
@@ -72,7 +70,6 @@ const Contact = () => {
       toast({
         title: "Error",
         description: "An error occurred while sending the message.",
-        type: "error",
       });
     }
   };

@@ -7,19 +7,13 @@ import type { ToastActionElement, ToastProps } from "@/components/ui/toast";
 const TOAST_LIMIT = 1;
 const TOAST_REMOVE_DELAY = 2000;
 
-export type ToastType =
-  | "background"
-  | "foreground"
-  | "success"
-  | "error"
-  | undefined;
+export type ToastType = "background" | "foreground";
 
 type ToasterToast = ToastProps & {
   id: string;
   title?: React.ReactNode;
   description?: React.ReactNode;
   action?: ToastActionElement;
-  type?: ToastType;
 };
 
 const actionTypes = {
