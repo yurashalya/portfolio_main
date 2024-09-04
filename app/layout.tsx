@@ -17,6 +17,23 @@ const JetBrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Yurii Shalia",
   description: "Main site by Shalia",
+  applicationName: "Yurii Shalia",
+  openGraph: {
+    title: "Yurii Shalia main site",
+    description: "Welcome to my site",
+    url: "https://yurii-shalia.vercel.app",
+    images: [
+      {
+        url: "/assets/photo-title.jpg",
+        width: 800,
+        height: 600,
+        alt: "Yurii Shalia",
+      },
+    ],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
