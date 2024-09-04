@@ -16,6 +16,8 @@ const JetBrainsMono = JetBrains_Mono({
   variable: "--font-jetbrains",
 });
 
+export const contentType = "/assets/photo-title.png";
+
 export const metadata: Metadata = {
   title: "Yurii Shalia",
   description: "Main site by Shalia",
