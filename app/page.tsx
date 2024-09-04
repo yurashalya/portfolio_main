@@ -8,26 +8,19 @@ import Stats from "@/components/Stars";
 
 const Home = () => (
   <section className="h-full my-6">
-    <div className="container mx-auto h-full">
-      <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-        {/*text */}
-        <div className="text-center xl:text-left order-2 xl:order-none">
-          <span className="text-xl">Frontend Software Engineer</span>
+    <section className="container mx-auto h-full">
+      <section className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
+        <section className="text-center xl:text-left order-2 xl:order-none">
           <h1 className="h1 mb-6 mt-3">
-            Hello, <br />
-            <span className="text-accent">I'm Yura Shalia</span>
+            Hello, <br /> I'm
+            <span className="text-accent"> Yurii Shalia</span>
           </h1>
           <p className="max-w-[500px] mb-9 text-white/80">
-            Tech savvy front-end developer with more than 6 years of experience
-            in software development, including React, React Native, Next.JS and
-            other libraries. Extensive knowledge in UI/UX, testing, optimization
-            solutions and debugging processes, developed technical and
-            architectural solutions.
-            <br /> A team player who easily connects with any stakeholder, they
-            are distinguished by their strong analytical capabilities and
-            thriving collaborative teamwork skills.
+            A skilled Frontend Software Engineer developer with 6+ years of
+            experience in React, Next.JS, React Native, having strong problem
+            solving and teamwork skills.
           </p>
-          <div className="flex flex-col xl:flex-row items-center gap-8">
+          <section className="flex flex-col xl:flex-row items-center gap-8">
             <a href="/resume.pdf" download>
               <Button
                 variant="outline"
@@ -38,7 +31,7 @@ const Home = () => (
                 <FiDownload className="text-xl" />
               </Button>
             </a>
-            <div className="mb-8 xl:mb-0 align-center">
+            <section className="mb-8 xl:mb-0 align-center">
               <SocialLinks
                 containerStyles="flex gap-6 justify-center"
                 iconStyles="w-9 h-9 
@@ -55,14 +48,14 @@ const Home = () => (
                   hover:transition-all 
                   duration-500"
               />
-            </div>
-          </div>
-        </div>
-        <div className="order-1 xl:order:none py-5 mb-8 xl:mb-0">
+            </section>
+          </section>
+        </section>
+        <section className="order-1 xl:order:none py-5 mb-8 xl:mb-0">
           <Photo />
-        </div>
-      </div>
-    </div>
+        </section>
+      </section>
+    </section>
     <Stats />
   </section>
 );
