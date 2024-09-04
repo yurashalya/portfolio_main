@@ -3,6 +3,8 @@ import { JetBrains_Mono } from "next/font/google";
 
 import "./globals.css";
 
+import SeoImage from "../public/assets/photo-title.png";
+
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
@@ -18,18 +20,17 @@ export const metadata: Metadata = {
   title: "Yurii Shalia",
   description: "Main site by Shalia",
   authors: [{ name: "Yurii Shalia" }],
-  metadataBase: new URL(
-    "https://yurii-shalia.vercel.app/assets/photo-title.jpg"
-  ),
+  metadataBase: new URL(SeoImage.src),
   openGraph: {
     title: "Yurii Shalia main site",
     description: "Welcome to my site",
     url: "https://yurii-shalia.vercel.app",
+    siteName: "Yurii Shalia",
     images: [
       {
-        url: "https://yurii-shalia.vercel.app/assets/photo-title.jpg",
-        width: 800,
-        height: 600,
+        url: SeoImage.src,
+        width: SeoImage.width,
+        height: SeoImage.height,
       },
     ],
   },
