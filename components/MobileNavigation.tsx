@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { CiMenuFries } from "react-icons/ci";
@@ -7,10 +8,19 @@ import { CiMenuFries } from "react-icons/ci";
 import { Links } from "@/constants";
 
 const MobileNavigation = () => {
-  const pathname = usePathname(); // Get the current path
+  const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  const handleOpenChange = (open: boolean) => {
+    setIsOpen(open);
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
+  };
 
   return (
-    <Sheet>
+    <Sheet open={isOpen} onOpenChange={handleOpenChange}>
       <SheetTrigger className="flex justify-center items-center">
         <CiMenuFries className="text-[35px] text-accent" />
       </SheetTrigger>
@@ -18,7 +28,9 @@ const MobileNavigation = () => {
         <div className="mt-32 mb-40 text-center text-2xl">
           <Link href="/">
             <h1 className="text-4xl font-semibold">
-              Yura <span className="text-accent">.</span>
+              <span className="text-accent">{`{`}</span>
+              Yurii
+              <span className="text-accent">{`}`}</span>
             </h1>
           </Link>
         </div>
@@ -26,6 +38,7 @@ const MobileNavigation = () => {
           {Links.map((link, index) => {
             return (
               <Link
+                onClick={handleClose}
                 href={link.path}
                 key={index}
                 className={`${
