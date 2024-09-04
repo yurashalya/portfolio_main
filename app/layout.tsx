@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     site: "https://yurii-shalia.vercel.app",
     title: "Yurii Shalia",
     description: "Welcome to my site",
-    images: "https://yurii-shalia.vercel.app/assets/photo-title.png",
+    images: ["https://yurii-shalia.vercel.app/assets/photo-title.png"],
   },
 };
 
