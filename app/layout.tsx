@@ -23,9 +23,10 @@ export const metadata: Metadata = {
     title: "Yurii Shalia main site",
     description: "Welcome to my site",
     url: "https://yurii-shalia.vercel.app",
+    siteName: "Yurii Shalia",
     images: [
       {
-        url: "https://yurii-shalia.vercel.app/assets/photo-title.jpg",
+        url: "https://yurii-shalia.vercel.app/assets/photo-title.png",
         width: 800,
         height: 600,
       },
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
     site: "https://yurii-shalia.vercel.app",
     title: "Yurii Shalia",
     description: "Welcome to my site",
-    images: "https://yurii-shalia.vercel.app/assets/photo-title.jpg",
+    images: "https://yurii-shalia.vercel.app/assets/photo-title.png",
   },
 };
 
