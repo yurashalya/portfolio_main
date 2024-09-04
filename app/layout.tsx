@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   title: "Yurii Shalia",
   description: "Main site by Shalia",
   authors: [{ name: "Yurii Shalia" }],
+  metadataBase: new URL("https://yurii-shalia.vercel.app"),
   openGraph: {
     title: "Yurii Shalia main site",
     description: "Welcome to my site",
@@ -34,6 +35,12 @@ export const metadata: Metadata = {
         height: SeoImage.height,
       },
     ],
+  },
+  twitter: {
+    site: "https://yurii-shalia.vercel.app",
+    title: "Yurii Shalia",
+    description: "Welcome to my site",
+    images: SeoImage.src,
   },
   icons: {
     icon: "/favicon.ico",
