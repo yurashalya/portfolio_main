@@ -20,8 +20,9 @@ export const metadata: Metadata = {
   title: "Yurii Shalia",
   description: "Main site by Shalia",
   openGraph: {
-    title: "Yurii Shalia main site",
-    description: "Welcome to my site",
+    title: "Main site by Yurii Shalia, welcome",
+    description:
+      "Welcome to my website, here you can read basic information and contact me.",
     url: "https://yurii-shalia.vercel.app",
     siteName: "Yurii Shalia",
     images: [
@@ -35,7 +36,8 @@ export const metadata: Metadata = {
   twitter: {
     site: "https://yurii-shalia.vercel.app",
     title: "Yurii Shalia",
-    description: "Welcome to my site",
+    description:
+      "Welcome to my website, here you can read basic information and contact me.",
     images: ["https://yurii-shalia.vercel.app/assets/photo-title.png"],
   },
 };
