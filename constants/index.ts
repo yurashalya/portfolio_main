@@ -57,7 +57,7 @@ export const Links = [
 export const Contacts = [
   {
     icon: FaTelegram,
-    title: "Skype",
+    title: "Telegram",
     description: "@s_yura",
   },
   {
