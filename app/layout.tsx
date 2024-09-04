@@ -20,7 +20,6 @@ export const metadata: Metadata = {
   title: "Yurii Shalia",
   description: "Main site by Shalia",
   authors: [{ name: "Yurii Shalia" }],
-  metadataBase: new URL(SeoImage.src),
   openGraph: {
     title: "Yurii Shalia main site",
     description: "Welcome to my site",
