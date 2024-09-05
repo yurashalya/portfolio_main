@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  yurii-shalia.vercel.app
+</h1>
+<p align="center">
+  <a href="https://github.com/yurashalya" alt="author">
+        <img src="https://github.com/user-attachments/assets/e637ca25-96f7-45f5-a9e7-04cbcc56ec25" /></a> </br>
+  Publish on <a href=https://yurii-shalia.vercel.app" target="_blank">yurii-shalia.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+</p>
 
-## Getting Started
+![demo]((https://github.com/user-attachments/assets/e637ca25-96f7-45f5-a9e7-04cbcc56ec25))
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🛠 Tech stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Typescript
+2. Next.JS
+3. Shadcdn
+4. Tailwind
+5. Nodemailer
+6. OG Image
+7. Framer-motion
+8. React-simple-typewriter
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🛠 How to use
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repo CLI
 
-## Learn More
+   ```sh
+   git clone https://github.com/yurashalya/portfolio_main.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install use NPM 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```sh
+   npm i
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Run The App
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```sh
+   npm run dev / yarn dev
+   ```
