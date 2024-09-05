@@ -1,7 +1,7 @@
-<h1 align="center">
+<h4 align="center">
  <a href="https://yurii-shalia.vercel.app" alt="author" target="_blank">
       yurii-shalia.vercel.app
-</h1>
+</h4>
 <p align="center">
   <a href="https://github.com/yurashalya" alt="author">
         <img src="https://github.com/user-attachments/assets/e637ca25-96f7-45f5-a9e7-04cbcc56ec25" /></a> </br>
