@@ -1,5 +1,5 @@
 <h1 align="center">
- <a href="https://yurii-shalia.vercel.app" alt="author">
+ <a href="https://yurii-shalia.vercel.app" alt="author" target="_blank">
       yurii-shalia.vercel.app
 </h1>
 <p align="center">
