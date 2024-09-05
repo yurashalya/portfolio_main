@@ -33,7 +33,7 @@ const Home = () => {
               />
             </p>
             <section className="flex flex-col xl:flex-row items-center gap-8">
-              <a href="/assets/Yurii_Shalia_Cv.pdf" download>
+              <a href="/assets/Yurii_Shalia_CV.pdf" download>
                 <Button
                   variant="outline"
                   size="lg"
