@@ -1,9 +1,10 @@
 <h4 align="center">
  <a href="https://yurii-shalia.vercel.app" alt="author" target="_blank">
       yurii-shalia.vercel.app
+  </a>
 </h4>
 <p align="center">
-  <a href="https://github.com/yurashalya" alt="author">
+  <a href="https://github.com/yurashalya" alt="author"></a>
         <img src="https://github.com/user-attachments/assets/e637ca25-96f7-45f5-a9e7-04cbcc56ec25" /></a> </br>
   Published on <a href="https://yurii-shalia.vercel.app" target="_blank">yurii-shalia.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
