@@ -8,9 +8,6 @@
   Published on <a href=https://yurii-shalia.vercel.app" target="_blank">yurii-shalia.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
-![demo]((https://github.com/user-attachments/assets/e637ca25-96f7-45f5-a9e7-04cbcc56ec25))
-
-
 ### 🛠 Tech stack
 
 1. Typescript
