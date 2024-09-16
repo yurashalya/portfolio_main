@@ -166,7 +166,7 @@ export const AboutMe = {
     },
     {
       fieldName: "Language:",
-      fieldValue: "English, Ukraine",
+      fieldValue: "English, Ukrainian",
     },
   ],
 };
