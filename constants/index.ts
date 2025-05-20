@@ -154,7 +154,7 @@ export const AboutMe = {
     },
     {
       fieldName: "Experience:",
-      fieldValue: "6+ years",
+      fieldValue: "7+ years",
     },
     {
       fieldName: "Email:",

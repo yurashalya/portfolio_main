@@ -23,7 +23,7 @@ const Home = () => {
             <p className="max-w-[500px] mb-9 text-white/80">
               <Typewriter
                 words={[
-                  ` A skilled Frontend Software Engineer developer with 6+ years of
+                  ` A skilled Frontend Software Engineer developer with 7+ years of
                     experience in React, Next.JS, React Native, having strong problem
                     solving and teamwork skills.`,
                 ]}
